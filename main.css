@@ -244,19 +244,6 @@ input[type=range]::-ms-fill-upper {
 	overflow: hidden;
 }
 
-text-box [data-content=side-image] {
-	display: flex;
-	align-items: flex-start;
-}
-
-text-box [data-content=character-expression] {
-	display: block;
-	width: auto;
-	height: auto;
-	max-width: initial;
-	max-height: initial;
-}
-
 .showScene {
 	animation: showScene .5s ease-out;
 	transform-origin: center;

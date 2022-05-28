@@ -72,21 +72,23 @@ monogatari.characters ({
 			angry: 'angry.png',
 			annoyed: 'annoyed.png',
 			blush: 'blush.png',
-			happy: 'happy.png',
+			smile: 'smile.png',
 			laugh: 'laugh.png',
 			neutral: 'neutral.png',
 			sad: 'sad.png',
-			shocked: 'shocked.png'
+			shocked: 'shocked.png',
+			sigh: 'sigh.png'
 		},
 		expressions: {
-			angry: 'angry.png',
-			annoyed: 'annoyed.png',
-			blush: 'blush.png',
-			happy: 'happy.png',
-			laugh: 'laugh.png',
-			neutral: 'neutral.png',
-			sad: 'sad.png',
-			shocked: 'shocked.png'
+			angry: 'expressions/angry.png',
+			annoyed: 'expressions/annoyed.png',
+			blush: 'expressions/blush.png',
+			smile: 'expressions/smile.png',
+			laugh: 'expressions/laugh.png',
+			neutral: 'expressions/neutral.png',
+			sad: 'expressions/sad.png',
+			shocked: 'expressions/shocked.png',
+			sigh: 'expressions/sigh.png'
 		},
 		default_expression: 'neutral'
 	}

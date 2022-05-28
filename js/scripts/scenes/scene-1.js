@@ -39,6 +39,8 @@ const scene1 = {
 	'Scene1_No': [
 		'show character leek shocked with exclaim',
 		'leek:shocked Huh?',
+		'show character leek sigh',
+		'leek:sigh *sigh*',
 		'show character leek angry with exclaim',
 		'leek:angry Are you serious?',
 		'show character leek annoyed',

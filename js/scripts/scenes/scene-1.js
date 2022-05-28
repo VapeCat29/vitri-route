@@ -8,17 +8,16 @@ const scene1 = {
 		'show background cafe_interior with showScene',
 		'show character leek neutral with fadeIn duration .5s',
 		'wait 500',
-		'show character leek happy with exclaim',
-		'leek So many vegetables here!',
-		'show character leek neutral',
-		'wait 500',
+		'show character leek laugh with exclaim',
+		'leek:laugh So many vegetables here!',
 		'jump Scene1_Choice'
 	],
 
 	'Scene1_Choice': [
+		'show character leek laugh',
 		{
 			'Choice': {
-				'Dialog': 'leek Do you know my favorite vegetable?',
+				'Dialog': 'leek:laugh Do you know my favorite vegetable?',
 				'Yes': {
 					'Text': 'Leek?',
 					'Do': 'jump Scene1_Yes'
@@ -32,13 +31,22 @@ const scene1 = {
 	],
 
 	'Scene1_Yes': [
-		'show character leek happy with exclaim',
-		'leek Thats awesome!',
+		'show character leek laugh with exclaim',
+		'leek:laugh Thats awesome!',
     'jump Scene2_Start'
 	],
 
 	'Scene1_No': [
-		'leek ...',
+		'show character leek shocked with exclaim',
+		'leek:shocked Huh?',
+		'show character leek angry with exclaim',
+		'leek:angry Are you serious?',
+		'show character leek annoyed',
+		'leek:annoyed But we\'ve been playing Valorant everyday...',
+		'show character leek sad with deject',
+		'leek:sad How can you say you don\'t know the answer?',
+		'show character leek blush with assert',
+		'leek:blush No way right? I\'ll you ask again',
 		'jump Scene1_Choice'
 	]
 };

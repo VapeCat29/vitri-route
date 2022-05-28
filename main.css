@@ -238,7 +238,24 @@ input[type=range]::-ms-fill-upper {
 
 }
 
+/** CUSTOM CSS **/
 
+[data-content=visuals] {
+	overflow: hidden;
+}
+
+text-box [data-content=side-image] {
+	display: flex;
+	align-items: flex-start;
+}
+
+text-box [data-content=character-expression] {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: initial;
+	max-height: initial;
+}
 
 .showScene {
 	animation: showScene .5s ease-out;
@@ -268,5 +285,36 @@ input[type=range]::-ms-fill-upper {
 	}
 	100% {
 		transform: translateY(0);
+	}
+}
+
+.deject {
+	animation: deject .3s ease-out;
+	transform-origin: center;
+}
+
+@keyframes deject {
+	0% {
+    transform: translateY(0);
+	}
+	50% {
+    transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.assert {
+	animation: assert 1s ease-out forwards;
+	transform-origin: top;
+}
+
+@keyframes assert {
+	0% {
+    transform: scale(1);
+	}
+	100% {
+		transform: scale(1.5);
 	}
 }

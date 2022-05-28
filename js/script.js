@@ -69,11 +69,24 @@ monogatari.characters ({
 		color: '#61CF62',
 		directory: 'leek',
 		sprites: {
+			angry: 'angry.png',
+			annoyed: 'annoyed.png',
+			blush: 'blush.png',
 			happy: 'happy.png',
-			neutral: 'neutral.png'
+			laugh: 'laugh.png',
+			neutral: 'neutral.png',
+			sad: 'sad.png',
+			shocked: 'shocked.png'
 		},
 		expressions: {
-			neutral: 'expressions/neutral.png'
+			angry: 'angry.png',
+			annoyed: 'annoyed.png',
+			blush: 'blush.png',
+			happy: 'happy.png',
+			laugh: 'laugh.png',
+			neutral: 'neutral.png',
+			sad: 'sad.png',
+			shocked: 'shocked.png'
 		},
 		default_expression: 'neutral'
 	}

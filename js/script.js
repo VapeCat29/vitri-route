@@ -31,12 +31,13 @@ monogatari.assets ('gallery', {
 
 // Define the music used in the game.
 monogatari.assets ('music', {
-
+	'dcl': 'dcl.ogg',
+	'ow': 'ow.ogg'
 });
 
 // Define the voice files used in the game.
 monogatari.assets ('voices', {
-
+	'1_leek_1': 'scene1/leek/1.mp3'
 });
 
 // Define the sounds used in the game.
@@ -70,18 +71,23 @@ monogatari.characters ({
 		sprites: {
 			happy: 'happy.png',
 			neutral: 'neutral.png'
-		}
+		},
+		expressions: {
+			neutral: 'expressions/neutral.png'
+		},
+		default_expression: 'neutral'
 	}
 });
 
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'show background cafe_interior with fadeIn duration 1s',
-		'show character leek neutral with fadeIn duration 1s',
+		'play music ow loop',
+		'show scene cafe_exterior with fadeIn duration 1s',
 		{
 			'Input': {
 				'Text': 'What is your name?',
+				'Default': 'Feesh',
 				'Validation': function (input) {
 					return input.trim ().length > 0;
 				},
@@ -103,8 +109,6 @@ monogatari.script ({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'leek Hi {{player.name}}',
-		'leek It is I, Leek and I’m the VA for Leek in the Updog Project',
 		'jump Scene1_Start'
 	],
 	...scene1,

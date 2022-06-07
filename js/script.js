@@ -97,7 +97,7 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'play music ow loop',
+		'play music ow with loop with fade 20',
 		'show scene cafe_exterior with fadeIn duration 1s',
 		{
 			'Input': {

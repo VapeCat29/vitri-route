@@ -240,8 +240,58 @@ input[type=range]::-ms-fill-upper {
 
 /** CUSTOM CSS **/
 
+[data-component=visual-novel] {
+	background-image: url(./assets/scenes/cafe-exterior.jpg);
+	background-size: cover;
+}
+
 [data-content=visuals] {
 	overflow: hidden;
+}
+
+[data-component=loading-screen] [data-content=wrapper] {
+	width: 100%;
+	padding: 20px 20px 25px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+[data-screen]:not([data-screen=game]):not([data-screen=main]):not([data-screen=loading]) {
+	position: fixed;
+	margin: 40px;
+	width: calc(100vw - 80px);
+	height: calc(100vh - 80px);
+	padding: 40px;
+	overflow: auto;
+	box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 20%);
+	background: rgba(255,255,255,0.9);
+	color: #000;
+}
+
+[data-screen]:not([data-screen=game]) button[data-action=back] {
+	position: fixed !important;
+	top: 40px;
+	left: 40px;
+}
+
+[data-screen]:not([data-screen=game]) a {
+	color: #69ab99;
+}
+
+[data-screen]:not([data-screen=game]) a:hover {
+	color: #79CFB8;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -2px;
 }
 
 .showScene {

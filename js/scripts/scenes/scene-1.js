@@ -3,7 +3,6 @@ const scene1 = {
 		'show character leek neutral with fadeIn duration 1s',
 		'leek Hi {{player.name}}',
 		'leek It is I, Leek and I’m the VA for Leek in the Updog Project',
-		'play voice 1_leek_1',
 		'leek Do you wanna go to a cafe? I have some time',
 		'show background cafe_interior with showScene',
 		'show character leek neutral with fadeIn duration .5s',

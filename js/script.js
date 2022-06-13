@@ -84,19 +84,6 @@ monogatari.assets ('music', {
 	'ow': 'ow.ogg'
 });
 
-// Define the voice files used in the game.
-monogatari.assets ('voices', {
-	'leek_intro1': 'classroomScene/leek/Leek_Intro_1.wav',
-	'leek_intro2': 'classroomScene/leek/Leek_Intro_2.wav',
-	'leek_intro3': 'classroomScene/leek/Leek_Intro_3.wav',
-	'leek_intro4': 'classroomScene/leek/Leek_Intro_4.wav',
-	'leek_intro5': 'classroomScene/leek/Leek_Intro_5.wav',
-	'leek_intro6': 'classroomScene/leek/Leek_Intro_6.wav',
-	'leek_intro7': 'classroomScene/leek/Leek_Intro_7.wav',
-	'leek_intro8': 'classroomScene/leek/Leek_Intro_8.wav',
-	'leek_intro9': 'classroomScene/leek/Leek_Intro_9.wav'
-});
-
 // Define the sounds used in the game.
 monogatari.assets ('sounds', {
 
@@ -184,7 +171,8 @@ monogatari.script ({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'jump leek_2_Classroom_intro_Start'
+		'jump leek_2_classroom_intro_start'
 	],
-	...leek_2_Classroom_intro
+	...leek_2_classroom_intro,
+  // create-new-scene-helper
 });

@@ -121,7 +121,6 @@ monogatari.assets ('scenes', {
 monogatari.characters ({
 	'leek': {
 		name: 'Leek',
-		color: '#61CF62',
 		directory: 'leek',
 		sprites: {
 			angry: 'angry.png',
@@ -154,6 +153,7 @@ monogatari.script ({
 	'Start': [
 		'play music ow with loop fade 5',
 		'show scene cafe_exterior with fadeIn duration 1s',
+		'Sample',
 		{
 			'Input': {
 				'Text': 'What is your name?',

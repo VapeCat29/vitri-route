@@ -310,7 +310,7 @@ quick-menu.transparent {
 	height: 200px;
 	max-height: initial;
 	min-height: initial;
-	grid-template-columns: 200px minmax(80%, 1fr);
+	grid-template-columns: 200px 1fr;
 	grid-template-rows: auto 1fr;
 	background: none;
 	overflow: visible !important;

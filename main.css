@@ -326,6 +326,7 @@ quick-menu.transparent {
 	z-index: -1;
 	border-radius: 10px;
 	transform: rotate(-2deg);
+	overflow: visible;
 }
 
 text-box [data-content=name] {

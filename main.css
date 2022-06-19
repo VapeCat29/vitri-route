@@ -313,6 +313,7 @@ quick-menu.transparent {
 	grid-template-columns: 200px minmax(80%, 1fr);
 	grid-template-rows: auto 1fr;
 	background: none;
+	overflow: visible !important;
 }
 
 [data-component="text-box"]::after {
@@ -326,7 +327,6 @@ quick-menu.transparent {
 	z-index: -1;
 	border-radius: 10px;
 	transform: rotate(-2deg);
-	overflow: visible;
 }
 
 text-box [data-content=name] {

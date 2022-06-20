@@ -101,7 +101,7 @@ monogatari.assets ('scenes', {
 	leek_room_nightlight: 'Otome_BG_Leeks_Room_NightLIGHT_Finished.jpg',
 	leek_room_sunset: 'Otome_BG_Leeks_Room_SUNSET.jpg',
 	leek_good_end: 'HappyEndLeek.png',
-	school_gate:'School_gate.jpg',
+	school_gate: 'School_gate.jpg',
 	sakura_street:'OTOME_BG_Sakura_Street.jpg',
 	park: 'Otome_BG_Park_Kaze.jpg',
 	grey_bg:'greyBG.png'
@@ -141,34 +141,6 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'play music ow with loop fade 5',
-		'show scene cafe_exterior with fadeIn duration 1s',
-		'Sample',
-		{
-			'Input': {
-				'Text': 'What is your name?',
-				'Default': 'Feesh',
-				'Validation': function (input) {
-					return input.trim ().length > 0;
-				},
-				'Save': function (input) {
-					monogatari.storage ({
-						player: {
-							name: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					monogatari.storage ({
-						player: {
-							name: ''
-						}
-					});
-				},
-				'Warning': 'You must enter a name!'
-			}
-		},
 		'jump main_1_University_Intro_start'
 	],
 	...leek_2_classroom_intro,

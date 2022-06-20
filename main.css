@@ -45,7 +45,7 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
-	background-image: url('./assets/scenes/cafe-exterior.jpg');
+	background-image: url('./assets/scenes/School_gate.jpg');
 }
 
 /* Main Menu Buttons Styling */
@@ -241,7 +241,7 @@ input[type=range]::-ms-fill-upper {
 /** CUSTOM CSS **/
 
 [data-component=visual-novel] {
-	background-image: url(./assets/scenes/cafe-exterior.jpg);
+	background-image: url(./assets/scenes/School_gate.jpg);
 	background-size: cover;
 }
 

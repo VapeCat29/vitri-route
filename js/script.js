@@ -44,7 +44,7 @@ monogatari.configuration ('credits', {
       <a target='_blank' href='https://twitter.com/MelonbreadFBP'>Melonbread</a>`,
     "Sound and Music": `
       <a target='_blank' href='https://twitter.com/crimson_king73'>Vince</a><br>
-      <a target='_blank' href='https://twitter.com/TCBNmusic'>Tachibana Music</a>
+      <a target='_blank' href='https://twitter.com/TCBNmusic'>Tachibana Music</a><br>
       <a target='_blank' href='https://twitter.com/shirokuma9303'>SHIROKUMA</a>`,
     "Voice Actors": `
       <a target='_blank' href='https://twitter.com/zhngls'>Leek</a><br>

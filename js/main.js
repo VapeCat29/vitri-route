@@ -33,6 +33,10 @@ $_ready (() => {
 
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
-
+		const metLeek = localStorage.getItem('met_leek');
+		if (metLeek === 'true') {
+			const mainScreen = document.querySelector('[data-screen="main"]');
+			mainScreen.style.backgroundImage = `url('./assets/scenes/Otome_Classroom.jpg')`;
+		}
 	});
 });

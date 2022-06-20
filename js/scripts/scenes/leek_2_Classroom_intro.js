@@ -21,6 +21,12 @@ const leek_2_classroom_intro = {
     'H-hello?',
     'show character leek shocked with exclaim',
     'play voice leek_intro_1',
+    function () {
+      const mainScreen = document.querySelector('[data-screen="main"]');
+			mainScreen.style.backgroundImage = `url('./assets/scenes/Otome_Classroom.jpg')`;
+      localStorage.setItem('met_leek', 'true');
+      return true;
+    },
     'leek:shocked Hm? Oh!',
     'show character leek neutral',
     '<p class = "italicText">She seems to finally notice me, shooting up in surprise. Her face loosens up a little and suddenly she seems a lot less scary. Her accent is cute too. Australian, I think?</p>',

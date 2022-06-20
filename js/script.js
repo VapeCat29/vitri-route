@@ -20,56 +20,45 @@ monogatari.action ('canvas').objects ({
 
 // Credits of the people involved in the creation of this awesome game
 monogatari.configuration ('credits', {
-	"" : "",
-	"<a href=\"https://twitter.com/RyuguardP\">Ryuguard Productions</a> ": {
-		"": "", 
+	"<a target='_blank' href='https://twitter.com/RyuguardP'>Ryuguard Productions</a>": {
+		"Director": "<a target='_blank' href='https://twitter.com/zzzz_oz'>OZ</a>",
+    "Executive Producer": "<a href='https://twitter.com/RyoheiX'>ROWJ</a>",
+		"Writers": `
+      <a target='_blank' href='https://twitter.com/HeroicCaster'>Caster</a>`,
+    "Editors": `
+      <a target='_blank' href='https://twitter.com/batalig'>Batalig</a><br>
+      <a target='_blank' href='https://twitter.com/AvrosKyargath'>Avros</a><br>
+      <a target='_blank' href='https://twitter.com/vonPeterhof'>VonPeterhof</a>`,
+    "Programmers": `
+      <a target='_blank' href='https://twitter.com/Kur0N0_'>kurokur0kurO</a><br>
+      <a target='_blank' href='https://twitter.com/smolcatto69'>Vape Cat</a><br>
+      <a target='_blank' href='https://twitter.com/zzzz_oz'>OZ</a><br>`,
+    "UI": `Pexe`,
+    "Artists": `
+      <a target='_blank' href='https://www.twitch.tv/hayabusanero'>CattestChajiit</a><br>
+      <a target='_blank' href='https://twitter.com/Leef_is_Absent'>Leef</a><br>
+      <a target='_blank' href='https://twitter.com/KazCrz'>KazakeCraze</a><br>
+      <a target='_blank' href='https://twitter.com/RyoheiX'>RowJ</a><br>
+		  <a target='_blank' href='https://twitter.com/SeabasstianB'>Seabasstian</a><br>
+      <a target='_blank' href='https://twitter.com/Cobalnite'>Cobalnite</a><br>
+      <a target='_blank' href='https://twitter.com/MelonbreadFBP'>Melonbread</a>`,
+    "Sound and Music": `
+      <a target='_blank' href='https://twitter.com/crimson_king73'>Vince</a><br>
+      <a target='_blank' href='https://twitter.com/TCBNmusic'>Tachibana Music</a>
+      <a target='_blank' href='https://twitter.com/shirokuma9303'>SHIROKUMA</a>`,
+    "Voice Actors": `
+      <a target='_blank' href='https://twitter.com/zhngls'>Leek</a><br>
+      ???<br>
+      ???<br>
+      ???`,
+    "Video": `
+      <a target='_blank' href='https://twitter.com/ItsRyesia'>Ryesia</a><br>
+      <a target='_blank' href='https://twitter.com/questionablitiy'>Questia クエスティア</a><br>
+      <a target='_blank' href='https://twitter.com/DGBCH11'>Colin The Ryuguard</a><br>
+      <a target='_blank' href='https://twitter.com/NijiEnTako'>Tako</a>`,
+    "Misc": `Finana Finclub Discord Server, OLcord and <a target='_blank' href='https://twitter.com/AvrosKyargath'>Avros</a>`
 	},
-	"Director: <a href=\"https://twitter.com/zzzz_oz\">OZ</a>": {
-		"": "",
-	},
-	"Editors:": {
-		"": "",
-	},
-	"<a href=\"https://twitter.com/batalig\">Batalig</a>, <a href=\"https://twitter.com/AvrosKyargath\">Avros</a>, <a href=\"https://twitter.com/zzzz_oz\">OZ, <a href=\"https://twitter.com/vonPeterhof\">VonPeterhof</a>": {
-		"": "",
-	},
-	"Writing Team": {
-		"Ryuwriters": "<a href=\"https://twitter.com/HeroicCaster\">Caster</a>", 
-		"": "<a href=\"https://twitter.com/LapisRoseVtuber\">Lapis Rose</a>",  
-		"": "<a href=\"https://twitter.com/keekispecial\">Keektang</a>",
-		"": "<a href=\"https://twitter.com/zzzz_oz\">OZ</a>",
-	},
-	"Programming": {
-		"RyuTech": "<a href=\"https://twitter.com/Kur0N0_\">Kuro</a>", 
-		"": "<a href=\"https://twitter.com/smolcatto69\">Vape Cat</a>",  
-		"": "<a href=\"https://twitter.com/DevilRightHands\">MaouHands</a>",
-		"": "<a href=\"https://twitter.com/zzzz_oz\">OZ</a>",
-	},
-	"Art Team": {
-		"RyuArts": "<a href=\"https://www.twitch.tv/hayabusanero\">CattestChajiit</a>",
-		"": "<a href=\"https://twitter.com/KazCrz\">KazakeCraze</a>",
-		"": "<a href=\"https://twitter.com/Leef_is_Absent\">Leef</a>",
-		"": "<a href=\"https://twitter.com/Cobalnite\">Cobalnite</a>",
-		"Assets": "<a href=\"https://twitter.com/MelonbreadFBP\">Melonbread</a>",
-	},
-	"Sound and Music": {
-		"Ryusound": [
-			"<a href=\"https://twitter.com/crimson_king73\">Vince</a>", "<a href=\"https://twitter.com/TCBNmusic\">Tachibana Music</a>",
-		],
-		"RyuVA": [
-			"<a href=\"https://twitter.com/zhngls\">LEEK</a>", "?????????", "????????????,????????????????"
-		],
-	},
-	"A/V Team": {
-		"RyuFilm": "<a href=\"https://twitter.com/ItsRyesia\">Ryesia</a>", 
-		"": "<a href=\"https://twitter.com/DGBCH11\">Colin The Ryuguard</a>",  
-		"": "<a href=\"https://twitter.com/NijiEnTako\">Tako</a>",
-		"": "<a href=\"https://twitter.com/questionablitiy\">Questia クエスティア</a>",
-	},
-	"Special Thanks to our <a href=\"https://twitter.com/FinanaRyugu\"> KAMI OSHI</a> You have changed our lives more than you'll ever know and have inspired all of us to be a better person each day. WE LOVE YOU AND HAPPY BIRTHDAY!!!!"  : {
-		"Further thanks to": ["Finana Finclub Server “Finacord” and  Avros 'DadVros' Kyargath"], 
-		"OMEN!?- - - - -  -  -  - - - -    >": ["click me, Kya~"],
-	}
+	"Special Thanks to our <a target='_blank' href='https://twitter.com/FinanaRyugu'> KAMI OSHI</a> You have changed our lives more than you'll ever know and have inspired all of us to be a better person each day. WE LOVE YOU AND HAPPY BIRTHDAY!!!!" : {}
 });
 
 
@@ -186,8 +175,8 @@ monogatari.script ({
 	...leek_3_Library_1A,
 	...leek_4_Room_GoodEnd,
 	...leek_5_Room_2A,
-  	...leek_6_Cafe_1B,
-  	...main_1_University_Intro,
-  	...leek_7_Room_2B,
+	...leek_6_Cafe_1B,
+	...main_1_University_Intro,
+	...leek_7_Room_2B,
   // create-new-scene-helper
 });

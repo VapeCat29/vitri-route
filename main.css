@@ -264,7 +264,7 @@ input[type=range]::-ms-fill-upper {
 	padding: 40px;
 	overflow: auto;
 	box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 20%);
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,0.95);
 	color: #000;
 }
 
@@ -280,6 +280,25 @@ input[type=range]::-ms-fill-upper {
 
 [data-screen]:not([data-screen=game]) a:hover {
 	color: #79CFB8;
+}
+
+[data-content=credits] .row {
+	margin: 10px 0 0 0;
+}
+
+[data-content=credits] h3 {
+	margin: 10px 0;
+}
+
+[data-content=credits] .row > *:nth-child(1) {
+	margin: 0 5px 0 0;
+	align-self: flex-start;
+	text-align: right;
+}
+
+[data-content=credits] .row > *:nth-child(2) {
+	margin: 0 0 0 5px;
+	text-align: left;
 }
 
 input[type=range]::-webkit-slider-thumb {

@@ -335,6 +335,10 @@ input[type=range]::-ms-fill-upper {
 	overflow: auto;
 }
 
+[data-ui=saveSlots] [data-ui=slots] {
+	border: 0;
+}
+
 [data-content=credits] h3 {
 	margin: 10px 0;
 }
@@ -406,6 +410,10 @@ quick-menu.transparent {
 	padding: 13px 10px;
 	background-color: var(--color-gray);
 	user-select: none;
+}
+
+[data-string=LoadSlots] {
+	display: none;
 }
 
 text-box [data-content=name] {

@@ -274,6 +274,7 @@ input[type=range]::-ms-fill-upper {
 
 [data-screen]:not([data-screen=game]):not([data-screen=main]):not([data-screen=loading]) {
 	position: fixed;
+	flex-direction: column;
 	margin: 40px;
 	width: calc(100vw - 80px);
 	height: calc(100vh - 80px);
@@ -330,9 +331,15 @@ input[type=range]::-ms-fill-upper {
 }
 
 [data-content=credits], [data-ui=slots], [data-ui=saveSlots], [data-screen=settings] > .row, [data-screen=help] > .row {
-	margin-top: 10px;
+	margin: 10px 0 0;
 	border: 1px solid rgba(255, 255, 255, 0.05);
 	overflow: auto;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+[data-string=AdvanceHelp] {
+	display: none;
 }
 
 [data-ui=saveSlots] [data-ui=slots] {

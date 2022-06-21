@@ -11,6 +11,12 @@
  * =============================================================================
 **/
 
+:root {
+  --color-gray: #292A2D;
+	--color-green: #9FEECF;
+	--color-pink: #ECB1F5;
+}
+
 /**
  * ===========================
  * General Styling
@@ -50,7 +56,17 @@ button:hover {
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
+	background: var(--color-gray);
+	color: var(--color-green);
+	border: 5px solid #fff;
+	border-radius: 10px;
+	border-bottom-left-radius: 0;
+}
 
+[data-screen="main"] button:hover {
+	background: var(--color-green);
+	color: var(--color-);
+	font-weight: bold;
 }
 
 /**
@@ -263,9 +279,37 @@ input[type=range]::-ms-fill-upper {
 	height: calc(100vh - 80px);
 	padding: 40px;
 	overflow: auto;
-	box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 20%);
-	background: rgba(255,255,255,0.95);
-	color: #000;
+	background-color: var(--color-gray);
+	border-radius: 10px;
+	color: #fff;
+	opacity: 0.95;
+	overflow: visible;
+}
+
+[data-screen]:not([data-screen=game]):not([data-screen=main]):not([data-screen=loading]):before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 10px;
+	background-color: var(--color-pink);
+	transform: rotate(-1deg);
+	content: '';
+	z-index: -1;
+}
+
+[data-screen]:not([data-screen=game]):not([data-screen=main]):not([data-screen=loading]):after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 5px solid var(--color-green);
+	background-color: var(--color-gray);
+	border-radius: 10px;
+	content: '';
+	z-index: -1;
 }
 
 [data-screen]:not([data-screen=game]) button[data-action=back] {
@@ -286,6 +330,12 @@ input[type=range]::-ms-fill-upper {
 	margin: 10px 0 0 0;
 }
 
+[data-content=credits], [data-ui=saveSlots], [data-screen=settings] > .row, [data-screen=help] > .row {
+	margin-top: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	overflow: auto;
+}
+
 [data-content=credits] h3 {
 	margin: 10px 0;
 }
@@ -301,6 +351,11 @@ input[type=range]::-ms-fill-upper {
 	text-align: left;
 }
 
+input[type=range] {
+	border: 1px solid var(--color-green);
+	padding: 1px;
+}
+
 input[type=range]::-webkit-slider-thumb {
   box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
@@ -310,7 +365,7 @@ input[type=range]::-webkit-slider-thumb {
   background: #ffffff;
   cursor: pointer;
   -webkit-appearance: none;
-  margin-top: -2px;
+  margin-top: -0.5px;
 }
 
 quick-menu.transparent button:focus, quick-menu.transparent button:hover {
@@ -341,7 +396,7 @@ quick-menu.transparent {
 	bottom: 2px;
 	width: 100%;
 	height: calc(100% - 30px);
-	background-color: #F0B5FC;
+	background-color: var(--color-pink);
 	content: '';
 	z-index: -1;
 	border-radius: 10px;
@@ -352,7 +407,7 @@ text-box [data-content=name] {
 	position: absolute;
 	top: 0;
 	left: 50px;
-	background: #F0B5FC;
+	background: var(--color-pink);
 	border-radius: 10px;
 }
 

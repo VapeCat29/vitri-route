@@ -143,6 +143,9 @@ monogatari.characters ({
 			sigh: 'expressions/sigh.png'
 		},
 		default_expression: 'neutral'
+	},
+	'???': {
+		name: '???'
 	}
 });
 

@@ -1,6 +1,6 @@
 const leek_2_classroom_intro = {
   'leek_2_classroom_intro_start': [
-    'leek:none <p class = "boldedText">Thank you so much!!! Can you come to Lecture Hall A at the Sciences Building, I’m still in class rn</p>',
+    '??? <p class = "boldedText">Thank you so much!!! Can you come to Lecture Hall A at the Sciences Building, I’m still in class rn</p>',
     'Great! Let’s see, that building is over…',
     '<p class = "italicText">I pull up the university map on my phone and take a look to see how far away the building is. Not too far by the looks of it, so I should be able to make it there and then to my next class.</p>',
     '<p class = "italicText">With my phone in hand to make sure I don’t get lost, I start to make my way over while taking a look around campus.</p>',

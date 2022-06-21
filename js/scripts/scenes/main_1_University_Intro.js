@@ -1,9 +1,10 @@
 const main_1_University_Intro = {
   'main_1_University_Intro_start': [
     'show scene sakura_street with fadeIn duration 1s',
+    // need to show something fast to fix UI problem
+    '<p class = "italicText">(wind blowing, petals shifting)</p>',
     //BGM start
     'play music university with loop fade 5',
-    '<p class = "italicText">(wind blowing, petals shifting)</p>',
     '<p class = "italicText">Cherry blossom petals fall gently in the wind, a reminder of spring beginning. And, as one falls onto my phone screen, a reminder of how late I am.</p>',
     'You can’t be serious right now…(sigh). Why is it so far awaaaay?',
     '<p class = "italicText">There is no way I would get to the university on time. So much for a good first day…</p>',

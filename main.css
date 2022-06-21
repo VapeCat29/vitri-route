@@ -282,7 +282,6 @@ input[type=range]::-ms-fill-upper {
 	background-color: var(--color-gray);
 	border-radius: 10px;
 	color: #fff;
-	opacity: 0.95;
 	overflow: visible;
 }
 
@@ -330,7 +329,7 @@ input[type=range]::-ms-fill-upper {
 	margin: 10px 0 0 0;
 }
 
-[data-content=credits], [data-ui=saveSlots], [data-screen=settings] > .row, [data-screen=help] > .row {
+[data-content=credits], [data-ui=slots], [data-ui=saveSlots], [data-screen=settings] > .row, [data-screen=help] > .row {
 	margin-top: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.05);
 	overflow: auto;
@@ -401,6 +400,12 @@ quick-menu.transparent {
 	z-index: -1;
 	border-radius: 10px;
 	transform: rotate(-2deg);
+}
+
+[data-input=slotName] {
+	padding: 13px 10px;
+	background-color: var(--color-gray);
+	user-select: none;
 }
 
 text-box [data-content=name] {

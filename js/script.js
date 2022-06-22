@@ -69,7 +69,7 @@ monogatari.assets ('gallery', {
 
 // Define the music used in the game.
 monogatari.assets ('music', {
-	'dcl': 'dcl.ogg',
+	'dcl': 'dcl.mp3',
 	'ow': 'ow.ogg',
 	'university': 'University2.wav',
 	'library': 'Library.wav',

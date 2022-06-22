@@ -2,7 +2,7 @@ const leek_6_Cafe_1B = {
   'leek_6_Cafe_1B_start': [
     'stop music university with fade 2',
     'show scene split_cafe_and_library with fadeOut duration 2s',
-    'play music cafe with loop fade 5',
+    'play music cafe with loop fade 5 volume 20',
     'wait 3000',
     'show scene cafe_exterior with fadeIn duration 2s',
     '<p class="italicText">While there are more than a few cafes and coffee shops on or near the campus, Leek decides to show me towards one a little farther away. Nearly there, with the sun beating down on me, I remind myself about the promise of cool drinks at the destination.</p>',

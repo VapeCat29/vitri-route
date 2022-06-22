@@ -1,7 +1,7 @@
 const leek_7_Room_2B = {
   'leek_7_Room_2B_start': [
     'show scene leek_room_nightlight with fadeIn duration 2s',
-    'play music leek_room with loop fade 5',
+    'play music leek_room with loop fade 5 volume 20',
     '<p class = "italicText">Leek’s dorm is on campus, just a short distance away from the main gate. It’s a nice building that they built recently and she seems to have a room to herself.</p>',
     '<p class = "italicText">So it’s just the two of us in her dorm, with our study session just barely coming to a close well after dusk; night has settled outside Leek’s window and both of us are starting to feel a little tired.</p>',
     'show character leek sigh with fadeIn',

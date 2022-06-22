@@ -4,7 +4,7 @@ const main_1_University_Intro = {
     // need to show something fast to fix UI problem
     '<p class = "italicText">(wind blowing, petals shifting)</p>',
     //BGM start
-    'play music university with loop fade 5',
+    'play music university with loop fade 5 volume 20',
     '<p class = "italicText">Cherry blossom petals fall gently in the wind, a reminder of spring beginning. And, as one falls onto my phone screen, a reminder of how late I am.</p>',
     'You can’t be serious right now…(sigh). Why is it so far awaaaay?',
     '<p class = "italicText">There is no way I would get to the university on time. So much for a good first day…</p>',

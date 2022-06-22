@@ -5,7 +5,7 @@ const leek_3_Library_1A = {
     },
     'stop music university with fade 2',
     'show scene split_cafe_and_library with fadeOut duration 2s',
-    'play music library with loop fade 5',
+    'play music library with loop fade 5 volume 20',
     'wait 3000',
     'show scene library with fadeIn duration 2s',
     '<p class = "italicText">Both of us agree that we could stand to get a little extra studying in, along with getting out for some company, so the library seems like the perfect place for that.</p>',

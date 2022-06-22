@@ -1,6 +1,6 @@
 const leek_8_Room_BadEnd = {
   'leek_8_Room_BadEnd_start': [
-    'play music leek_bad_end with loop fade 5',
+    'play music leek_bad_end with loop fade 5 volume 20',
     'play voice leek_roomBE_1',
     'leek:none Hm…almost done…',
     '*phone notif sfx*',

@@ -160,7 +160,7 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'jump leek_4_Room_GoodEnd_start'
+		'jump main_1_University_Intro_start'
 	],
 	...leek_2_classroom_intro,
 	...leek_3_Library_1A,

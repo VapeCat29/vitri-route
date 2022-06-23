@@ -25,7 +25,7 @@ const leek_8_Room_BadEnd = {
     'show scene leek_bad_end with fadeOut duration 3s',
     'stop music leek_bad_end with fade 2',
     'wait 2000',
-    'show video credits immersive with close',
+    'show video credits immersive with close controls',
     'end'
   ]
 };

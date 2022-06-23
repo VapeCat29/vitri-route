@@ -34,8 +34,11 @@ $_ready (() => {
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
 		const metLeek = localStorage.getItem('met_leek');
-		if (metLeek === 'true') {
-			const mainScreen = document.querySelector('[data-screen="main"]');
+		const goodEndLeek = localStorage.getItem('good_end_leek');
+		const mainScreen = document.querySelector('[data-screen="main"]');
+		if (goodEndLeek === 'true') {
+			mainScreen.style.backgroundImage = `url('./assets/scenes/Otome_BG_Leeks_Room_DAYTIME.jpg')`;
+		} else if (metLeek === 'true') {
 			mainScreen.style.backgroundImage = `url('./assets/scenes/Otome_Classroom.jpg')`;
 		}
 	});

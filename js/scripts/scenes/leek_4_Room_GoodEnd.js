@@ -24,6 +24,12 @@ const leek_4_Room_GoodEnd = {
     'stop music leek_good_end with fade 2',
     'wait 3000',
     'show video credits immersive with close controls',
+    function () {
+      const mainScreen = document.querySelector('[data-screen="main"]');
+			mainScreen.style.backgroundImage = `url('./assets/scenes/Otome_BG_Leeks_Room_DAYTIME.jpg')`;
+      localStorage.setItem('good_end_leek', 'true');
+      return true;
+    },
     'end'
   ]
   

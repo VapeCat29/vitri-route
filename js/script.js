@@ -78,14 +78,14 @@ monogatari.assets ('gallery', {
 
 // Define the music used in the game.
 monogatari.assets ('music', {
+	'leek_bad_end': 'Bad_End.mp3',
+	'cafe': 'Cafe.mp3',
 	'dcl': 'dcl.mp3',
+	'library': 'Feesh_n_chill.mp3',
+	'leek_good_end': 'leekGoodEnd.mp3',
+	'leek_room': 'leekRoom.mp3',
 	'ow': 'ow.ogg',
 	'university': 'RYUniversity.mp3',
-	'library': 'Feesh_n_chill.mp3',
-	'leek_bad_end': 'Bad_End.mp3',
-	'leek_good_end': 'leekGoodEnd.wav',
-	'leek_room': 'leekRoom.wav',
-	'cafe': 'Cafe.wav'
 });
 
 // Define the sounds used in the game.
@@ -160,7 +160,7 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'jump main_1_University_Intro_start'
+		'jump leek_4_Room_GoodEnd_start'
 	],
 	...leek_2_classroom_intro,
 	...leek_3_Library_1A,

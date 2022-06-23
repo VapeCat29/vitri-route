@@ -23,7 +23,7 @@ const leek_4_Room_GoodEnd = {
     'show scene leek_good_end with fadeOut duration 2s',
     'stop music leek_good_end with fade 2',
     'wait 3000',
-    'show video credits immersive with close',
+    'show video credits immersive with close controls',
     'end'
   ]
   

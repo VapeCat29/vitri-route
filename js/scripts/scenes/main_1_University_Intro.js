@@ -20,7 +20,7 @@ const main_1_University_Intro = {
     //bump sfx
     'show scene school_gate with shakeY duration 0.5s',
     '-eep! Sorry, sorry…(sigh)',
-    '<p class = "italicText">*ringtone sfx*</p>',
+    '<p class = "italicText">*ringtone*</p>',
     'Huh? A phone?…oh!',
     '<p class = "italicText">The sound was coming from a phone, dropped into the bushes just off the path. PIcking it up, I could see a notification - a text - on the screen.</p>',
     '<p class = "boldedText">If you can see this, please contact me at XXX-XXXX, I think I’ve lost my phone.</p>',
@@ -45,7 +45,7 @@ const main_1_University_Intro = {
     'There, that looks good. I hope.',
     '<p class = "italicText">With the text sent, I decide to relax a little, playing games on my phone as the occasional person passes by. Seeing all these fellow students makes me feel a little anxious to be honest. I wonder how I’m going to make friends since I just moved here.</p>',
     //Text notification sfx
-    '<p class = "italicText">*Text notification sfx*</p>',
+    '<p class = "italicText">*Text notification*</p>',
     'Huh? Oh! That must be them. Let’s see what the notification says…',
 
     'jump leek_2_classroom_intro_start'

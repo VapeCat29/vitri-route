@@ -3,7 +3,10 @@ const prompt = require('prompt');
 
 prompt.start();
 prompt.get(['filename'], function (err, result) {
-  const name = result.filename;
+  let name = result.filename;
+
+  // convert - to _
+  name = name.replace(/-/, '_');
 
   fs.writeFileSync(`${__dirname}/../js/scripts/scenes/${name}.js`, jsTemplate(name));
 

@@ -86,6 +86,7 @@ monogatari.assets ('music', {
 	'leek_room': 'leekRoom.mp3',
 	'ow': 'ow.ogg',
 	'university': 'RYUniversity.mp3',
+	'feeshIntro':'feeshIntro.mp3'
 });
 
 // Define the sounds used in the game.
@@ -120,7 +121,11 @@ monogatari.assets ('scenes', {
 	park: 'Otome_BG_Park_Kaze.jpg',
 	classroom: 'Otome_Classroom.jpg',
 	leek_bad_end: 'leek_bad_end.png',
-	grey_bg:'greyBG.png'
+	grey_bg:'greyBG.png',
+	kaz_and_vape:'kaz_and_vape.png',
+	cringe:'cringe_BG.png',
+	vet:'vet_BG.jpg',
+	laptop:'laptop_BG.png'
 });
 
 // Define the Characters
@@ -154,13 +159,54 @@ monogatari.characters ({
 	},
 	'???': {
 		name: '???'
+	},
+	'vitri': {
+		name: 'Vitri',
+		directory:'vitri',
+		sprites:{
+			neutral:'placeholder_vitri.png',
+			surprised:'vitri_surprised.png'
+		},
+		expressions:{
+			neutral:'expressions/neutral.png'
+		},
+		default_expression:'neutral'
+	},
+	'finana':{
+		name: 'Finana',
+		directory:'finana',
+		sprites:{
+			neutral:'placeholder_finana.png',
+			hold_laugh:'finana_hold_laugh.png',
+			angry:'finana_angry.png',
+			tease:'finana_tease.png'
+		},
+		expressions:{
+			neutral:'expressions/neutral.png',
+			hold_laugh:'expressions/hold_laugh.png',
+			angry:'expressions/angry.png',
+			tease:'expressions/tease.png'
+		},
+		default_expression:'neutral'
+	},
+	'vet':{
+		name: 'Vet-kun',
+		directory:'vet',
+		sprites:{
+			neutral:'vet_neutral.png'
+		},
+		expressions:{
+			neutral:'expressions/neutral.png'
+		},
+		default_expression:'neutral'
 	}
 });
 
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'jump main_1_University_Intro_start'
+		//'jump main_1_University_Intro_start'
+		'jump vitri_1_intro_start'
 	],
 	...leek_2_classroom_intro,
 	...leek_3_Library_1A,
@@ -170,5 +216,8 @@ monogatari.script ({
 	...main_1_University_Intro,
 	...leek_7_Room_2B,
 	...leek_8_Room_BadEnd,
+  	...vitri_1_intro,
+  ...vitri_2_vet_1B,
+  ...vitri_3_house_1A,
   // create-new-scene-helper
 });
